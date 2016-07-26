@@ -34,6 +34,7 @@
         6).server_rpc_controller：RPC服务端内部实现控制对象，现阶段只用于错误信息的输出
     5.unit_test：单元代码测试
     6.util：工具类和函数
+    7.rpc_center:P2C（Peer 2 Cluster）时候，作为RPC集群的负载均衡，任务调度的master，RPC Center为集群无中心设计（代码开发未完成）
 
 
 设计说明：
